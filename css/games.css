@@ -1,0 +1,52 @@
+.games{
+    margin-top: 120px;
+}
+
+.games  th{
+    text-align: left;
+
+} 
+
+.games table{
+    border-spacing: 0;
+}
+
+.games th, .games td{
+    padding:  10px;
+    border-collapse: collapse;
+}
+.games .leftMost {
+    
+    border-left:  5px #153972 solid;
+    border-top:  5px #153972 solid;
+    
+    border-collapse: collapse;
+} 
+
+.games .rightMost {
+    
+    border-right:  5px #153972 solid;
+    border-top:  5px #153972 solid;
+    
+    border-collapse: collapse;
+} 
+
+.games .middle {
+    
+    border-top:  5px #153972 solid;
+   
+    border-collapse: collapse;
+} 
+
+.games .last{
+     border-bottom:  5px #153972 solid;
+     border-collapse: collapse;
+}
+.games table a{
+    color: white;
+    text-decoration: none;
+}
+
+.games table a:hover{
+    color:red;
+}

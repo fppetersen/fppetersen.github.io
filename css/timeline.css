@@ -1,0 +1,96 @@
+.timeline{
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+}
+.timeline .topic{
+    text-align: center;
+}
+.timeline .block{
+    border: 5px #153972 solid;
+    margin-top: 10px;
+
+    position: relative;
+}
+
+.timeline .block .description {
+   text-align:  center;
+}
+
+.timeline .block .description .date{
+    font-size: 16px;
+}
+
+.timeline .block .description .location{
+    font-size: 20px;
+}
+.timeline .block .description .location a{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.timeline .block .description .location a:hover{
+    color: red;
+}
+
+.showState{
+    display: none;
+}
+
+.moreInfo{
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.showState:checked ~  .moreInfo{
+    opacity: 1;
+    font-size: inherit;
+    margin: 25px 5px;
+    max-height: 999em;
+}
+
+.showState ~ .readMoreTrigger:before{
+    content: "Show Details"
+}
+
+.showState:checked ~ .readMoreTrigger:before{
+    content: "Hide Details"
+}
+
+.timeline .block .readMoreTrigger{
+    position: absolute;
+    bottom: 2px;
+    right:  5px;
+    margin-top:5px;
+}
+
+.timeline .block .readMoreTrigger:hover{
+    color: red;
+}
+ .timeline .programming{
+    border-color: #F79D36;
+    overflow: auto;
+ }
+
+.timeline .skill{
+    float: left;
+    width: 20%;
+    height: 5%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}   
+
+.timeline .skillf{
+    float: left;
+    width: 20%;
+    height: 5%;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}   
+
+.timeline .tools{
+    border-color: #36F763;
+    overflow:auto;
+}

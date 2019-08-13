@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background-color: #000;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+header{
+    position:  fixed;
+    top: 5px;
+}
+header a{
+    color: white;
+    background-color: #153972;
+    border: 5px #153972 solid;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+header a:hover{
+    color: red;
+    
+}
+
+.helper{
+    margin-top: 1200px;
+}
+
+
